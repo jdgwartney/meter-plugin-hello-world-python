@@ -1,0 +1,10 @@
+{
+    "PYTHON_HELLO_WORLD": {
+       "defaultAggregate": "avg",
+       "defaultResolutionMS": 30000,
+       "description": "Python Hello World",
+       "displayName": "Python Hello World",
+       "displayNameShort": "Py Hello World",
+       "unit": "number"
+    }
+}

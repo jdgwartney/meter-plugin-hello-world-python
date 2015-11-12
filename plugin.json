@@ -1,0 +1,27 @@
+{
+   "name": "Hello World Python",
+   "version": "1.0.0",
+   "meterVersionRequired": "4.2.0-611",
+   "unsupportedPlatforms": [],
+   "tags" : "python hello world"
+   "description": "Hello World plugin in Python",
+   "icon": "icon.png",
+   "command": "python init.py",
+   "postExtract": "python bootstrap.py",
+   "metrics": [
+       "PYTHON_HELLO_WORD"
+    ],
+   "dashboards": [
+    ],
+   "paramSchema": [
+     {
+       "title": "Source",
+       "name": "source",
+       "description": "Source to use for measurements",
+       "type": "string",
+       "default": "",
+       "required": true
+     }
+   ]
+
+}
